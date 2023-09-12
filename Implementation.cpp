@@ -15,9 +15,20 @@ bool substringcheck(string s1,string s2){
 bool g[100][100]={};
 
 // Cool way to check even odd (Faster)
-if(n&1){
-        cout<<"ODD"<<endl;
-    }
-    else{
-        cout<<"even"<<endl;
-    }
+if(n&1) cout<<"ODD"<<endl;
+else cout<<"EVEN"<<endl;
+    
+
+// Check if Power of 2 O(1)
+// Not works if n==0
+if(n&(n-1)) cout<<"Not a power of 2"<<endl;
+else cout<<"Power of 2"<<endl;
+
+// If x/(2^k)
+(x>>k)
+// If x*(2^k) 
+(x<<k)
+
+ // To find number of set bits in binary
+ __builtin_popcount(x); // for int
+ __builtin_popcountll(x); // for long long
