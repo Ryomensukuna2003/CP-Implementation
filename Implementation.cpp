@@ -14,3 +14,10 @@ bool substringcheck(string s1,string s2){
 // For creation of Boolean Matrix 
 bool g[100][100]={};
 
+// Cool way to check even odd (Faster)
+if(n&1){
+        cout<<"ODD"<<endl;
+    }
+    else{
+        cout<<"even"<<endl;
+    }
