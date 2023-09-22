@@ -32,3 +32,7 @@ else cout<<"Power of 2"<<endl;
  // To find number of set bits in binary
  __builtin_popcount(x); // for int
  __builtin_popcountll(x); // for long long
+
+// Lower bound Index
+cout<<lower_bound(c,c+n,b[j])-c+1<<endl;
+
