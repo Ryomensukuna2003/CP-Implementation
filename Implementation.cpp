@@ -35,4 +35,8 @@ else cout<<"Power of 2"<<endl;
 
 // Lower bound Index
 cout<<lower_bound(c,c+n,b[j])-c+1<<endl;
-
+// Lower bound on Vector
+vector<ll>::iterator low;
+	low=lower_bound(all(vec1),target);
+	cout<<low-vec1.begin();
+	
