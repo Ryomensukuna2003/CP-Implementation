@@ -1,4 +1,6 @@
 // Smallest prime factor
+// what we are doing here is marking every number with its smallest prime factor
+// For SPF of number we are iterating for backwards and dividing the number by its SPF and moving to next number obtained by dividing the number by its SPF 
 
 vll sieve(ll n) {
     vll spf(n + 1);
